@@ -124,7 +124,7 @@ class CarInterface(CarInterfaceBase):
     elif candidate in [CAR.CAMRY, CAR.CAMRYH]:
       stop_and_go = True
       ret.safetyParam = 73
-      ret.wheelbase = 2.82448
+      ret.wheelbase = 2.84988
       ret.steerRatio = 13.7
       tire_stiffness_factor = 0.7933
       ret.mass = 3400. * CV.LB_TO_KG + STD_CARGO_KG  # mean between normal and hybrid

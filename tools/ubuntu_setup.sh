@@ -39,8 +39,8 @@ sudo apt-get update && sudo apt-get install -y \
     ocl-icd-libopencl1 \
     ocl-icd-opencl-dev \
     opencl-headers \
-    python-dev \
-    python-pip \
+    python3-dev \
+    python3-pip \
     qt5-default \
     screen \
     sudo \
@@ -69,7 +69,7 @@ if [ -z "$OPENPILOT_ENV" ]; then
 fi
 
 # in the openpilot repo
-cd $HOME/openpilot
+cd $HOME/dev/openpilot
 
 # do the rest of the git checkout
 git lfs pull
